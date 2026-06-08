@@ -9,7 +9,10 @@
     "name":"Default",
   },
   "defaultScriptType":0,
-  "Folders":[],
+  "Folders":[
+    {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+  ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],
   "isEcma":false,
@@ -19,7 +22,11 @@
   },
   "name":"cs415Deckbuilder",
   "resources":[
+    {"id":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},},
+    {"id":{"name":"obj_deck","path":"objects/obj_deck/obj_deck.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"spr_card","path":"sprites/spr_card/spr_card.yy",},},
+    {"id":{"name":"spr_deck","path":"sprites/spr_deck/spr_deck.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
