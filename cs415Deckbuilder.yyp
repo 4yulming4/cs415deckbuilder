@@ -20,6 +20,7 @@
   "name":"cs415Deckbuilder",
   "resources":[
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"PlaceHolder_AI_Background","path":"sprites/PlaceHolder_AI_Background/PlaceHolder_AI_Background.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
