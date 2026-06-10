@@ -7,7 +7,7 @@ function spawn_shop_card(){
 				x + (i * 120) + 75,
 				y + 110,
 				"Instances",
-				obj_card_burgle
+				obj_card_1_burgle
 			);
 			
 			card.in_shop = true;

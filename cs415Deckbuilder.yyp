@@ -56,8 +56,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room_cards","path":"rooms/Room_cards/Room_cards.yy",},},
     {"roomId":{"name":"room_shop","path":"rooms/room_shop/room_shop.yy",},},
+    {"roomId":{"name":"Room_cards","path":"rooms/Room_cards/Room_cards.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
