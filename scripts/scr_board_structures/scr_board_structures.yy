@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_board_structures",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_board_structures",
+  "parent":{
+    "name":"cs415Deckbuilder",
+    "path":"cs415Deckbuilder.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

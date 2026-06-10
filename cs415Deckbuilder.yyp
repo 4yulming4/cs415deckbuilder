@@ -19,7 +19,9 @@
   },
   "name":"cs415Deckbuilder",
   "resources":[
+    {"id":{"name":"board_manager","path":"objects/board_manager/board_manager.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"scr_board_structures","path":"scripts/scr_board_structures/scr_board_structures.yy",},},
     {"id":{"name":"BetterBGPlacegolder","path":"sprites/BetterBGPlacegolder/BetterBGPlacegolder.yy",},},
   ],
   "resourceType":"GMProject",
