@@ -32,7 +32,7 @@
     {"id":{"name":"obj_deck","path":"objects/obj_deck/obj_deck.yy",},},
     {"id":{"name":"obj_next_turn_button","path":"objects/obj_next_turn_button/obj_next_turn_button.yy",},},
     {"id":{"name":"obj_player_manager","path":"objects/obj_player_manager/obj_player_manager.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Room_cards","path":"rooms/Room_cards/Room_cards.yy",},},
     {"id":{"name":"scr_cards","path":"scripts/scr_cards/scr_cards.yy",},},
     {"id":{"name":"scr_deck","path":"scripts/scr_deck/scr_deck.yy",},},
     {"id":{"name":"scr_enums","path":"scripts/scr_enums/scr_enums.yy",},},
@@ -46,7 +46,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room_cards","path":"rooms/Room_cards/Room_cards.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
