@@ -2,13 +2,18 @@
 /// @param {int}    index   ID of the card to be retrived. Defaults to 0 (stumble).
 /// @description            Returns a instance of the card with that ID.
 function get_card_obj(index = 0){
-    switch (index) {
-        case 1: return obj_card_1_burgle;
-        case 2: return obj_card_2_sidestep;
-        case 3: return obj_card_3_scramble;
-        case 4: return obj_card_4_mercency; 
-        default: return obj_card_0_stumble; //index = 0 & invalid index
+    var cards = [
+        obj_card_0_stumble,
+        obj_card_1_burgle,
+        obj_card_2_sidestep,
+        obj_card_3_scramble,
+        obj_card_4_mercency
+    ]
+    if (index >= array_length(cards) || index < 0) {
+        show_debug_message("Invalid index of " + string(index));
+        index = 0;
     }
+    return cards[index];
 }
 /// @function               scr_get_card(index);
 /// @description            Returns a instance of a random card.
