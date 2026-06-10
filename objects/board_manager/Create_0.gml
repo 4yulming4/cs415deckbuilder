@@ -225,7 +225,7 @@ global.adj_matrix[33][26] = new path_edge(0, 1, false);
 
 // node 34
 global.adj_matrix[34][28] = new path_edge(0, 0, false);
-global.adj_matrix[33][35] = new path_edge(0, 0, true);
+global.adj_matrix[34][35] = new path_edge(0, 0, true);
 
 // node 35
 global.adj_matrix[35][34] = new path_edge(0, 0, true);
