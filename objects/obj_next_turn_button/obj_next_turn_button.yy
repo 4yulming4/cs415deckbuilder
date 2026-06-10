@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_deck",
+  "%Name":"obj_next_turn_button",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_deck",
+  "name":"obj_next_turn_button",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_deck",
-    "path":"sprites/spr_deck/spr_deck.yy",
+    "name":"spr_next_turn_button",
+    "path":"sprites/spr_next_turn_button/spr_next_turn_button.yy",
   },
   "spriteMaskId":null,
   "visible":true,
