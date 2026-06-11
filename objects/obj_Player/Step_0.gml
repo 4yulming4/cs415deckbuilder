@@ -20,9 +20,20 @@ if (mouse_check_button_pressed(mb_left))
     if (hovered_node != -1)
     {
         var edge = global.adj_matrix[current_node][hovered_node];
-
+        
         if (edge != noone)
         {
+            with (obj_player_manager) {
+                if (Movement < edge.boot_cost + 1) {
+                    return;
+                }
+                Movement -= edge.boot_cost + 1;
+                if (edge.monsters > 0) {
+                    var damage = edge.monsters - Sword;
+                    HP -= max(damage, 0);
+                    Sword = max(Sword - edge.monsters, 0);
+                }
+            }
             if (edge.requires_key == false)
             {
                 target_node = hovered_node;

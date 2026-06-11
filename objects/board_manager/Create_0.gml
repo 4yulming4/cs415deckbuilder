@@ -239,3 +239,13 @@ global.adj_matrix[36][37] = new path_edge(1, 1, false);
 // node 37
 global.adj_matrix[37][31] = new path_edge(0, 0, false);
 global.adj_matrix[37][36] = new path_edge(1, 1, false);
+
+
+var start_node = global.node_list[0];
+
+var p = instance_create_depth(
+    start_node.x,
+    start_node.y,
+    -1,
+    obj_Player
+);

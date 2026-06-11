@@ -1,3 +1,4 @@
+//next turn
 discard_all(CardState.hand);
 discard_all(CardState.play);
 draw_card();
