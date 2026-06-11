@@ -18,14 +18,14 @@ function draw_card(){
     
     var chosenIndex = irandom_range(0, array_length(global.deck_cards) - 1);
     var cardOffset = 128 * (array_length(global.deck_hand));
-    var cardID = instance_create_depth(160 + cardOffset, 590, 0, 
+    var cardID = instance_create_layer(160 + cardOffset, 590, "Instances", 
         get_card_obj(global.deck_cards[chosenIndex]), {
         state : CardState.hand
-    })
+        })
     array_push(global.deck_hand, cardID);
     array_delete(global.deck_cards, chosenIndex, 1);
 }
-/// @function                   draw_card();
+/// @function                   draw_card(state);
 /// @param {CardState} state    Hand/Play, no shop currently
 /// @description                Discards & removes a card, effects global.deck & triggers redraw.
 function discard_card(index, state){
@@ -42,6 +42,9 @@ function discard_card(index, state){
     
     redraw(state);
 }
+/// @function                   draw_card(state);
+/// @param {CardState} state    Hand/Play, no shop currently
+/// @description                Discards & removes all card, effects global.deck & triggers redraw.
 function discard_all(state) {
     if (state == CardState.hand) {
         arr = global.deck_hand;
@@ -79,7 +82,7 @@ function redraw(state) {
         arr = global.deck_hand;
     } else if (state == CardState.play) {
         xOffset = 32;
-        yOffset = 320;
+        yOffset = 400;
         arr = global.deck_play;
     } else {
         return;

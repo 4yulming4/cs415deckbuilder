@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"spawn_shop_card",
+  "%Name":"scr_shop",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"spawn_shop_card",
+  "name":"scr_shop",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
