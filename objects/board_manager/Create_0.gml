@@ -249,3 +249,4 @@ var p = instance_create_depth(
     -1,
     obj_Player
 );
+ 

@@ -39,6 +39,7 @@
     {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},},
     {"id":{"name":"obj_shop","path":"objects/obj_shop/obj_shop.yy",},},
     {"id":{"name":"obj_supply_deck","path":"objects/obj_supply_deck/obj_supply_deck.yy",},},
+    {"id":{"name":"dedicated_level_1","path":"rooms/dedicated_level_1/dedicated_level_1.yy",},},
     {"id":{"name":"Room_cards","path":"rooms/Room_cards/Room_cards.yy",},},
     {"id":{"name":"Room_map","path":"rooms/Room_map/Room_map.yy",},},
     {"id":{"name":"scr_board_structures","path":"scripts/scr_board_structures/scr_board_structures.yy",},},
@@ -64,6 +65,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"Room_cards","path":"rooms/Room_cards/Room_cards.yy",},},
     {"roomId":{"name":"Room_map","path":"rooms/Room_map/Room_map.yy",},},
+    {"roomId":{"name":"dedicated_level_1","path":"rooms/dedicated_level_1/dedicated_level_1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
