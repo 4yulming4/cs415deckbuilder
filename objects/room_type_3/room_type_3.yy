@@ -5,11 +5,11 @@
   "managed":true,
   "name":"room_type_3",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"room_parent","path":"objects/room_parent/room_parent.yy",},"propertyId":{"name":"room_type","path":"objects/room_parent/room_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"market",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"room_parent","path":"objects/room_parent/room_parent.yy",},"propertyId":{"name":"room_type","path":"objects/room_parent/room_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"regular",},
   ],
   "parent":{
-    "name":"L1_room",
-    "path":"folders/Objects/L1_room.yy",
+    "name":"board_rooms_levels",
+    "path":"folders/Objects/board_rooms_levels.yy",
   },
   "parentObjectId":{
     "name":"room_parent",

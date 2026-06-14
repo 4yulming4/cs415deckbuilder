@@ -6,8 +6,8 @@
   "name":"board1",
   "overriddenProperties":[],
   "parent":{
-    "name":"L1_room",
-    "path":"folders/Objects/L1_room.yy",
+    "name":"board_rooms_levels",
+    "path":"folders/Objects/board_rooms_levels.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"board_level_1",
-    "path":"sprites/board_level_1/board_level_1.yy",
+    "name":"Board1_lvl1",
+    "path":"sprites/Board1_lvl1/Board1_lvl1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -8,8 +8,8 @@
   "name":"Level1_room_manager",
   "overriddenProperties":[],
   "parent":{
-    "name":"L1_room",
-    "path":"folders/Objects/L1_room.yy",
+    "name":"board_rooms_levels",
+    "path":"folders/Objects/board_rooms_levels.yy",
   },
   "parentObjectId":null,
   "persistent":false,

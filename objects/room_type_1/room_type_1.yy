@@ -6,8 +6,8 @@
   "name":"room_type_1",
   "overriddenProperties":[],
   "parent":{
-    "name":"L1_room",
-    "path":"folders/Objects/L1_room.yy",
+    "name":"board_rooms_levels",
+    "path":"folders/Objects/board_rooms_levels.yy",
   },
   "parentObjectId":{
     "name":"room_parent",
