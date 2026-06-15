@@ -17,8 +17,8 @@
     {"$GMFolder":"","%Name":"room_management","folderPath":"folders/Scripts/room_management.yy","name":"room_management","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"BoardsBGS","folderPath":"folders/Sprites/BoardsBGS.yy","name":"BoardsBGS","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"rooms_bgs","folderPath":"folders/Sprites/rooms_bgs.yy","name":"rooms_bgs","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Path_symbs","folderPath":"folders/Sprites/Path_symbs.yy","name":"Path_symbs","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"rooms_bgs","folderPath":"folders/Sprites/rooms_bgs.yy","name":"rooms_bgs","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],
@@ -83,9 +83,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"dedicated_level_1","path":"rooms/dedicated_level_1/dedicated_level_1.yy",},},
     {"roomId":{"name":"Room_cards","path":"rooms/Room_cards/Room_cards.yy",},},
     {"roomId":{"name":"Room_map","path":"rooms/Room_map/Room_map.yy",},},
-    {"roomId":{"name":"dedicated_level_1","path":"rooms/dedicated_level_1/dedicated_level_1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

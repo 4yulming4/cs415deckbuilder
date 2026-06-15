@@ -22,10 +22,10 @@ function get_coords (room1, room2) {
 function draw_path_on_angle (_x1, _y1, _x2, _y2, token_type) {
 	// draw line from room1 to room 2 based on adj_matrix mapping 
 	draw_set_colour(c_white); 
-	draw_line(_x1, _y1, _x2, _y2); // draw token on top of this 
+	draw_line_width(_x1, _y1, _x2, _y2, 4); // draw token on top of this 
 	
-	var x_mid = abs(_x1 - _x2);
-	var y_mid = abs(_y1 - _y2);
+	var x_mid = (_x1 + _x2) / 2; 
+	var y_mid = (_y1 + _y2) / 2;
 	
 	switch (token_type) { 
 		case 1: 
