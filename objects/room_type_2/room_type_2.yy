@@ -32,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"ice_room",
+    "path":"sprites/ice_room/ice_room.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

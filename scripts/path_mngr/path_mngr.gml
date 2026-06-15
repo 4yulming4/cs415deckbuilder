@@ -1,3 +1,9 @@
+function _path(_token_type, r1, r2) constructor {
+	token_type = _token_type; 
+	room1_ptr = r1; 
+	room2_ptr = r2; 
+}
+
 function get_coords (room1, room2) {
 	var coord_arr = array_create(4, 0); 
 	var room1_x = room1.x; 
@@ -11,19 +17,25 @@ function get_coords (room1, room2) {
 	coord_arr[3] = room2_y; 
 	
 	return coord_arr; 
-	 
 } 
 
 function draw_path_on_angle (_x1, _y1, _x2, _y2, token_type) {
 	// draw line from room1 to room 2 based on adj_matrix mapping 
 	draw_set_colour(c_white); 
 	draw_line(_x1, _y1, _x2, _y2); // draw token on top of this 
+	
+	var x_mid = abs(_x1 - _x2);
+	var y_mid = abs(_y1 - _y2);
+	
 	switch (token_type) { 
 		case 1: 
+			draw_sprite(Boots, -1, x_mid, y_mid);
 			break; 
 		case 2: 
+			draw_sprite(monster, -1, x_mid, y_mid); 
 			break; 
 		case 3: 
+			draw_sprite(Lock, -1, x_mid, y_mid); 
 			break; 
 		default: 
 			break; 
