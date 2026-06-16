@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"norm_room_bg",
+    "path":"sprites/norm_room_bg/norm_room_bg.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

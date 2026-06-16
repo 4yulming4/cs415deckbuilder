@@ -5,7 +5,7 @@
   "managed":true,
   "name":"room_type_3",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"room_parent","path":"objects/room_parent/room_parent.yy",},"propertyId":{"name":"room_type","path":"objects/room_parent/room_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"regular",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"room_parent","path":"objects/room_parent/room_parent.yy",},"propertyId":{"name":"room_type","path":"objects/room_parent/room_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"market",},
   ],
   "parent":{
     "name":"board_rooms_levels",
@@ -32,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"market_bg",
+    "path":"sprites/market_bg/market_bg.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

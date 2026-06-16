@@ -19,10 +19,9 @@ function get_coords (room1, room2) {
 	return coord_arr; 
 } 
 
-function draw_path_on_angle (_x1, _y1, _x2, _y2, token_type) {
-	// draw line from room1 to room 2 based on adj_matrix mapping 
+function draw_path_on_angle (_x1, _y1, _x2, _y2, token_type) { 
 	draw_set_colour(c_white); 
-	draw_line_width(_x1, _y1, _x2, _y2, 4); // draw token on top of this 
+	draw_line_width(_x1, _y1, _x2, _y2, 4); 
 	
 	var x_mid = (_x1 + _x2) / 2; 
 	var y_mid = (_y1 + _y2) / 2;

@@ -10,6 +10,7 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"board_rooms_levels","folderPath":"folders/Objects/board_rooms_levels.yy","name":"board_rooms_levels","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Cards","folderPath":"folders/Objects/Cards.yy","name":"Cards","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -52,6 +53,7 @@
     {"id":{"name":"room_type_2","path":"objects/room_type_2/room_type_2.yy",},},
     {"id":{"name":"room_type_3","path":"objects/room_type_3/room_type_3.yy",},},
     {"id":{"name":"dedicated_level_1","path":"rooms/dedicated_level_1/dedicated_level_1.yy",},},
+    {"id":{"name":"dedicated_level_2","path":"rooms/dedicated_level_2/dedicated_level_2.yy",},},
     {"id":{"name":"Room_cards","path":"rooms/Room_cards/Room_cards.yy",},},
     {"id":{"name":"Room_map","path":"rooms/Room_map/Room_map.yy",},},
     {"id":{"name":"path_mngr","path":"scripts/path_mngr/path_mngr.yy",},},
@@ -67,7 +69,9 @@
     {"id":{"name":"Boots","path":"sprites/Boots/Boots.yy",},},
     {"id":{"name":"ice_room","path":"sprites/ice_room/ice_room.yy",},},
     {"id":{"name":"Lock","path":"sprites/Lock/Lock.yy",},},
+    {"id":{"name":"market_bg","path":"sprites/market_bg/market_bg.yy",},},
     {"id":{"name":"monster","path":"sprites/monster/monster.yy",},},
+    {"id":{"name":"norm_room_bg","path":"sprites/norm_room_bg/norm_room_bg.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
     {"id":{"name":"spr_card","path":"sprites/spr_card/spr_card.yy",},},
     {"id":{"name":"spr_deck_supply","path":"sprites/spr_deck_supply/spr_deck_supply.yy",},},
@@ -86,6 +90,7 @@
     {"roomId":{"name":"dedicated_level_1","path":"rooms/dedicated_level_1/dedicated_level_1.yy",},},
     {"roomId":{"name":"Room_cards","path":"rooms/Room_cards/Room_cards.yy",},},
     {"roomId":{"name":"Room_map","path":"rooms/Room_map/Room_map.yy",},},
+    {"roomId":{"name":"dedicated_level_2","path":"rooms/dedicated_level_2/dedicated_level_2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
