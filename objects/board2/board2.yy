@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"Level1_room_manager",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"board2",
+  "eventList":[],
   "managed":true,
-  "name":"Level1_room_manager",
+  "name":"board2",
   "overriddenProperties":[],
   "parent":{
     "name":"board_rooms_levels",
     "path":"folders/Objects/board_rooms_levels.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"board_parent",
+    "path":"objects/board_parent/board_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Board2_lvl2",
+    "path":"sprites/Board2_lvl2/Board2_lvl2.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

@@ -21,6 +21,3 @@ for (var i=0; i < total_found; i++) {
 	adj_matrix[i] = array_create(total_found, 0); 
 } 
 
-// here need to link paths 
-adj_matrix[0][1] = new _path(1, room_instances[0], room_instances[1]);
-adj_matrix[1][2] = new _path(3, room_instances[4], room_instances[2]); 

@@ -1,0 +1,1 @@
+global.pixel_coord_map = {}; 

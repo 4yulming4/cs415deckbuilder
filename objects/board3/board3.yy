@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"board1",
+  "%Name":"board3",
   "eventList":[],
   "managed":true,
-  "name":"board1",
+  "name":"board3",
   "overriddenProperties":[],
   "parent":{
     "name":"board_rooms_levels",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Board1_lvl1",
-    "path":"sprites/Board1_lvl1/Board1_lvl1.yy",
+    "name":"Board3_lvl3",
+    "path":"sprites/Board3_lvl3/Board3_lvl3.yy",
   },
   "spriteMaskId":null,
   "visible":true,
