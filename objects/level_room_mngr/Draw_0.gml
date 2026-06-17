@@ -12,8 +12,7 @@ for (var i =0; i < total_found; i++) {
 			
 			draw_path_on_angle(
 				coords[x1], coords[y1],		
-				coords[x2], coords[y2],		
-				curr_path.token_type 
+				coords[x2], coords[y2]
 			);
 		}
 	}

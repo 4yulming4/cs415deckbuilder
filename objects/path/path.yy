@@ -27,11 +27,13 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"token_type","filters":[],"listItems":[],"multiselect":false,"name":"token_type","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"none","varType":1,},
     {"$GMObjectProperty":"v2","%Name":"room1_ptr","filters":[
         "GMObject",
       ],"listItems":[],"multiselect":false,"name":"room1_ptr","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
     {"$GMObjectProperty":"v2","%Name":"room2_ptr","filters":[],"listItems":[],"multiselect":false,"name":"room2_ptr","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"num_boots","filters":[],"listItems":[],"multiselect":false,"name":"num_boots","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"num_monster","filters":[],"listItems":[],"multiselect":false,"name":"num_monster","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"num_key","filters":[],"listItems":[],"multiselect":false,"name":"num_key","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

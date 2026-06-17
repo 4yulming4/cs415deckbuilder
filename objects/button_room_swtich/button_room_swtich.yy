@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"board_parent",
+  "%Name":"button_room_swtich",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":5,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"board_parent",
+  "name":"button_room_swtich",
   "overriddenProperties":[],
   "parent":{
-    "name":"board_rooms_levels",
-    "path":"folders/Objects/board_rooms_levels.yy",
+    "name":"temp_objs",
+    "path":"folders/Objects/temp_objs.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"button_for_rooms",
+    "path":"sprites/button_for_rooms/button_for_rooms.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

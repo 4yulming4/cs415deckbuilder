@@ -1,1 +1,1 @@
-draw_path_on_angle(x1, y1, x2, y2, t_token);
+draw_path_on_angle(x1, y1, x2, y2);
