@@ -1,6 +1,8 @@
 // src_board_structures are struct declarations for each room and edge
 // additionally, board will be represented with adj matrix 
 
+//TODO: board structs should be objects created with room sprites (same thing for paths) on the board (randomization) 
+
 function room_node (_id, _x, _y, _is_ice, _is_deep) constructor {
 	id = _id; 
 	x = _x;                 // x and y are literal pixel coords in the scene 
