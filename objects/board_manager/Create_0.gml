@@ -1,7 +1,6 @@
 #macro TOT_ROOMS 38
 
 global.node_list = array_create(TOT_ROOMS, noone);
-global.dragon_rage = 0;
 
 // first 5 rooms, top 
 global.node_list[0] = new room_node(0, 55, 88, false, false);  // starting room  
@@ -250,12 +249,4 @@ var p = instance_create_depth(
     -1,
     obj_Player
 );
-
-var a1 = instance_create_depth(0, 0, -10, obj_artifact);
-scr_artifact_init(a1, 34, 5);
-
-var a2 = instance_create_depth(0, 0, -10, obj_artifact);
-scr_artifact_init(a2, 36, 10);
-
-var a3 = instance_create_depth(0, 0, -10, obj_artifact);
-scr_artifact_init(a3, 37, 15);
+ 

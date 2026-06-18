@@ -1,8 +1,20 @@
+//if (!global.node_list_ready) exit;
+//if (!variable_global_exists("adj_matrix")) exit;
+//if (!is_array(global.node_list)) exit;
+
+
+
+var parent_idx = asset_get_index("level_room_mngr"); 
+if (parent_idx == -1 || !instance_exists(parent_idx)) exit; 
+
+var controller = instance_find(parent_idx, 0);
+if (!variable_instance_exists(controller, "room_instances") || !variable_instance_exists(controller, "adj_matrix")) exit;
+
 hovered_node = -1;
 
-for (var i = 0; i < array_length(global.node_list); i++)
+for (var i = 0; i < array_length(controller.room_instances); i++)
 {
-    var node = global.node_list[i];
+    var node = controller.room_instances[i];
 
     if (point_distance(mouse_x, mouse_y, node.x, node.y) < 20)
     {
@@ -13,63 +25,74 @@ for (var i = 0; i < array_length(global.node_list); i++)
 
 if (mouse_check_button_pressed(mb_left))
 {
-    if (hovered_node != -1)
+    if (hovered_node != -1 && hovered_node != current_node)
     {
-        var edge = global.adj_matrix[current_node][hovered_node];
-
+        var edge = controller.adj_matrix[current_node][hovered_node];
+        
+		if (is_struct(edge) && variable_struct_exists(edge, "requires_key")) {
+			var can_move = true; 
+			
+			if (instance_exists(obj_player_manager)) {
+				with (obj_player_manager) {
+	                if (Movement < edge.boot_cost + 1) {
+	                    return;
+	                }
+	                Movement -= edge.boot_cost + 1;
+	                if (edge.monsters > 0) {
+	                    var damage = edge.monsters - Sword;
+	                    HP -= max(damage, 0);
+	                    Sword = max(Sword - edge.monsters, 0);
+	                }
+				}
+			} else {
+				can_move = false; 	
+			}
+			if (can_move && edge.requires_key == false) {
+				target_node = hovered_node; 
+				moving = true; 
+			}
+			
+		}
+		
+		
+		/*
         if (edge != noone)
         {
-            with (obj_player_manager)
-            {
-                if (Movement < edge.boot_cost + 1)
-                {
-                    exit;
+            with (obj_player_manager) {
+                if (Movement < edge.boot_cost + 1) {
+                    return;
                 }
-
                 Movement -= edge.boot_cost + 1;
-
-                if (edge.monsters > 0)
-                {
+                if (edge.monsters > 0) {
                     var damage = edge.monsters - Sword;
                     HP -= max(damage, 0);
                     Sword = max(Sword - edge.monsters, 0);
                 }
             }
-
-            if (!edge.requires_key)
+            if (edge.requires_key == false)
             {
                 target_node = hovered_node;
                 moving = true;
             }
-        }
+        }*/
     }
 }
 
 if (moving)
 {
-    var target = global.node_list[target_node];
+    var target = controller.room_instances[target_node];
 
     var dir = point_direction(x, y, target.x, target.y);
 
     x += lengthdir_x(move_speed, dir);
     y += lengthdir_y(move_speed, dir);
 
-    if (point_distance(x, y, target.x, target.y) < move_speed)
+    if (point_distance(x, y, target.x, target.y) <= move_speed)
     {
         x = target.x;
         y = target.y;
 
         current_node = target_node;
         moving = false;
-
-        with (obj_artifact)
-        {
-            if (!collected && node_id == other.current_node)
-            {
-                collected = true;
-                increase_dragon_rage(value);
-                instance_destroy();
-            }
-        }
     }
 }
