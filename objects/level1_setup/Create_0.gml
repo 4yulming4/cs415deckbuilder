@@ -21,14 +21,14 @@ for (var i=0; i < total_found; i++) {
 } 
 
 // here need to link paths
-// adj_matrix[][] = new _path(room_instances[], room_instances[], , , );
+// adj_matrix[][] = new _path(room_instances[], room_instances[], boots, monster, key);
 adj_matrix[0][1] = new _path(room_instances[0], room_instances[1], 0, 0, 0);
 adj_matrix[1][0] = new _path(room_instances[1], room_instances[0], 0, 0, 0);
 
 adj_matrix[1][2] = new _path(room_instances[1], room_instances[2], 1, 0, 0);
 adj_matrix[2][1] = new _path(room_instances[2], room_instances[1], 1, 0, 0);
 adj_matrix[1][6] = new _path(room_instances[1], room_instances[6], 0, 1, 0);
-adj_matrix[1][6] = new _path(room_instances[6], room_instances[1], 0, 1, 0);
+adj_matrix[6][1] = new _path(room_instances[6], room_instances[1], 0, 1, 0);
 adj_matrix[5][1] = new _path(room_instances[5], room_instances[1], 0, 0, 0);  // one directional
 
 adj_matrix[2][3] = new _path(room_instances[2], room_instances[3], 1, 0, 0);

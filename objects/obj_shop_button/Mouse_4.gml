@@ -1,5 +1,6 @@
-if (room == Room_game) {
-    room_goto(Room_shop);
+if (room == Room_shop) {
+    room_goto(Level);
 } else {
-    room_goto(Room_game);
+    Level = room;
+    room_goto(Room_shop);
 }
