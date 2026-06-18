@@ -1,0 +1,36 @@
+{
+  "$GMRoomUI":"",
+  "%Name":"RoomUI",
+  "children":[
+    {"$GMRUILayer":"v1","%Name":"UILayer","alignItems":4,"children":[
+        {"$GMRFlexPanel":"","%Name":"Shop","alignItems":2,"alignSelf":3,"children":[
+            {"$GMRInstance":"v4","%Name":"inst_24D8E39","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_24D8E39","objectId":{"name":"obj_shop_button","path":"objects/obj_shop_button/obj_shop_button.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":2.0,"x":0.0,"y":0.0,},
+          ],"flexDirection":0,"height":{"unit":3,"value":64.0,},"justifyContent":1,"name":"Shop","nodeColour":4284478024,"paddingBottom":{"unit":1,"value":20.0,},"paddingRight":{"unit":1,"value":20.0,},"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":64.0,},},
+        {"$GMRFlexPanel":"","%Name":"Background","alignItems":2,"children":[
+            {"$GMRFlexPanel":"","%Name":"Stats","alignItems":2,"alignSelf":3,"children":[
+                {"$GMRInstance":"v4","%Name":"inst_6C169B0E","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6C169B0E","objectId":{"name":"obj_next_turn_button","path":"objects/obj_next_turn_button/obj_next_turn_button.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.625,"scaleY":1.0,"x":0.0,"y":0.0,},
+              ],"flexDirection":2,"height":{"unit":3,"value":100.0,},"justifyContent":1,"marginRight":{"unit":1,"value":20.0,},"name":"Stats","nodeColour":4291883592,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":100.0,},},
+            {"$GMRFlexPanel":"","%Name":"Cards","alignItems":2,"alignSelf":4,"children":[
+                {"$GMRFlexPanel":"","%Name":"Deck","alignItems":2,"alignSelf":4,"children":[
+                    {"$GMRInstance":"v4","%Name":"inst_3001F087","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3001F087","objectId":{"name":"obj_deck","path":"objects/obj_deck/obj_deck.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
+                  ],"flexDirection":0,"height":{"unit":1,"value":100.0,},"justifyContent":1,"name":"Deck","nodeColour":4293019890,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":100.0,},},
+                {"$GMRFlexPanel":"","%Name":"Hand","alignItems":2,"children":[],"flexDirection":2,"gapColumn":20.0,"height":{"unit":3,"value":150.0,},"justifyContent":1,"name":"Hand","nodeColour":4282970857,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":2,"value":87.0,},},
+                {"$GMRFlexPanel":"","%Name":"Discard","alignItems":2,"children":[
+                    {"$GMRInstance":"v4","%Name":"inst_B3D9AB4","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_B3D9AB4","objectId":{"name":"obj_discard","path":"objects/obj_discard/obj_discard.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
+                  ],"flexDirection":0,"height":{"unit":3,"value":100.0,},"justifyContent":1,"name":"Discard","nodeColour":4282949618,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":100.0,},},
+              ],"flexDirection":2,"height":{"unit":3,"value":160.0,},"justifyContent":1,"layoutDirection":1,"marginBottom":{"unit":1,"value":20.0,},"marginLeft":{"unit":1,"value":20.0,},"marginRight":{"unit":1,"value":20.0,},"marginTop":{"unit":1,"value":20.0,},"name":"Cards","nodeColour":4283255026,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":110.0,},},
+            {"$GMRSpriteGraphic":"v1","%Name":"graphic_7C442291","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps","stretchHeight":true,"stretchWidth":true,},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_7C442291","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_ui_background","path":"sprites/spr_ui_background/spr_ui_background.yy",},"x":0.0,"y":0.0,},
+          ],"flexDirection":0,"height":{"unit":3,"value":64.0,},"justifyContent":1,"name":"Background","nodeColour":4282967538,"paddingTop":{"unit":1,"value":10.0,},"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":64.0,},},
+      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":2,"name":"UILayer","nodeColour":4285919816,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
+  ],
+  "locked":false,
+  "name":"RoomUI",
+  "parent":{
+    "name":"cs415Deckbuilder",
+    "path":"cs415Deckbuilder.yyp",
+  },
+  "resourceType":"GMRoomUI",
+  "resourceVersion":"2.0",
+  "viewspaceChildren":[],
+  "visible":true,
+}
