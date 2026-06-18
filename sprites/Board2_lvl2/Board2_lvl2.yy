@@ -20,7 +20,7 @@
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"b013c986-1647-4039-8c0f-68b69cba8836","blendMode":0,"displayName":"room_area_organization","isLocked":false,"name":"b013c986-1647-4039-8c0f-68b69cba8836","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"1d8660b1-1940-4e6a-8665-68eccbd82cfb","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"1d8660b1-1940-4e6a-8665-68eccbd82cfb","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"1d8660b1-1940-4e6a-8665-68eccbd82cfb","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"1d8660b1-1940-4e6a-8665-68eccbd82cfb","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
     {"$GMImageLayer":"","%Name":"7594b162-80f6-4224-843f-a9dc6ea0bc9c","blendMode":0,"displayName":"default","isLocked":false,"name":"7594b162-80f6-4224-843f-a9dc6ea0bc9c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Board2_lvl2",

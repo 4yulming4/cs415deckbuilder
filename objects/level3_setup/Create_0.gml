@@ -20,15 +20,8 @@ for (var i=0; i < total_found; i++) {
 	adj_matrix[i] = array_create(total_found, 0); 
 } 
 
-//**TODO FIX** make tokens objs that can be dragged and dropped and not automattically drawn 
-/*
-	PATHS: need to hold array of tokens (up to 2) 
-*/
 
 
-
-// here need to link paths
-// adj_matrix[][] = new _path(room_instances[], room_instances[], , , );
 adj_matrix[0][1] = new _path(room_instances[0], room_instances[1], 0,0,0);
 adj_matrix[1][0] = new _path(room_instances[1], room_instances[0], 0,0,0);
 adj_matrix[1][5] = new _path(room_instances[1], room_instances[5], 1, 0, 0);
