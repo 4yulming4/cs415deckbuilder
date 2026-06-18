@@ -1,0 +1,10 @@
+camera_set_view_size(view_camera[0], 700, 270);
+camera_set_view_size(view_camera[1], 1, 1);
+view_set_hport(0, 540);
+view_set_wport(0, 1400);
+view_set_hport(1, 1);
+view_set_wport(1, 1);
+view_set_xport(1, 799);
+view_set_yport(1, 799);
+view_set_visible(0, true);
+view_set_visible(1, true);

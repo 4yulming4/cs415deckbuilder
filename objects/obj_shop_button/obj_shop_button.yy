@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_map_button",
+  "%Name":"obj_shop_button",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_map_button",
+  "name":"obj_shop_button",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -27,7 +27,9 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"Text","filters":[],"listItems":[],"multiselect":false,"name":"Text","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Back to Game","varType":2,},
+    {"$GMObjectProperty":"v2","%Name":"Level","filters":[
+        "GMRoom",
+      ],"listItems":[],"multiselect":false,"name":"Level","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

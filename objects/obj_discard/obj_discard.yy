@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"board_manager",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_discard",
+  "eventList":[],
   "managed":true,
-  "name":"board_manager",
+  "name":"obj_discard",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_discard",
+    "path":"sprites/spr_discard/spr_discard.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

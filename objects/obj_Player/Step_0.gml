@@ -16,7 +16,7 @@ for (var i = 0; i < array_length(controller.room_instances); i++)
 {
     var node = controller.room_instances[i];
 
-    if (point_distance(mouse_x, mouse_y, node.x, node.y) < 20)
+    if (point_distance(mouse_x, mouse_y, node.x, node.y) < 30)
     {
         hovered_node = i;
         break;
@@ -29,29 +29,31 @@ if (mouse_check_button_pressed(mb_left))
     {
         var edge = controller.adj_matrix[current_node][hovered_node];
         
-		if (is_struct(edge) && variable_struct_exists(edge, "requires_key")) {
+		if (is_struct(edge) && variable_struct_exists(edge, "num_key")) {
 			var can_move = true; 
 			
 			if (instance_exists(obj_player_manager)) {
 				with (obj_player_manager) {
-	                if (Movement < edge.boot_cost + 1) {
-	                    return;
+	                if (Movement < edge.num_boots + 1) {
+	                    can_move = false;
 	                }
-	                Movement -= edge.boot_cost + 1;
-	                if (edge.monsters > 0) {
-	                    var damage = edge.monsters - Sword;
-	                    HP -= max(damage, 0);
-	                    Sword = max(Sword - edge.monsters, 0);
-	                }
+                    if (edge.num_key > 0) {
+                        can_move = false;
+                    }
+                    if (can_move) {
+                        if (edge.num_monster > 0) {
+    	                    var damage = edge.num_monster - Sword;
+    	                    HP -= max(damage, 0);
+    	                    Sword = max(Sword - edge.num_monster, 0); 
+                        }
+                        Movement -= edge.num_boots + 1;
+                        other.target_node = other.hovered_node; 
+				        other.moving = true; 
+                    }
 				}
 			} else {
 				can_move = false; 	
 			}
-			if (can_move && edge.requires_key == false) {
-				target_node = hovered_node; 
-				moving = true; 
-			}
-			
 		}
 		
 		
@@ -96,3 +98,14 @@ if (moving)
         moving = false;
     }
 }
+
+//set camera
+var view_w = camera_get_view_width(view_camera[0]);
+var view_h = camera_get_view_height(view_camera[0]);
+   
+var offsetX = 350;
+var offsetY = 100;
+var cx = min( max( x-offsetX, 0 ), room_width - (view_w) );
+var cy = min( max( y-offsetY, 0 ), room_height - (view_h) );
+   
+camera_set_view_pos(view_camera[0], cx, cy);
