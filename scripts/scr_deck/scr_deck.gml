@@ -43,14 +43,11 @@ function draw_card(){
     array_delete(global.deck_cards, chosenIndex, 1);
 }
 /// @function                   draw_card(state);
-/// @param {CardState} state    Hand/Play, no shop currently
-/// @description                Discards & removes a card, effects global.deck & triggers redraw.
-function discard_card(index, state){
-    if (state == CardState.hand) {
-        arr = global.deck_hand;
-    } else {
-        return;
-    }
+/// @param {CardState} index    Index of card to discard.
+/// @description                Discards & removes a card in hand, effects global.discard.
+function discard_card(index){
+    arr = global.deck_hand;
+    
     var cardID = flexpanel_node_get_struct(arr[index]).layerElements[0].instanceId;
     array_push(global.deck_discard, arr[index].ID);
     
@@ -59,14 +56,10 @@ function discard_card(index, state){
     array_delete(arr, index, 1);
 }
 /// @function                   draw_card(state);
-/// @param {CardState} state    Hand/Play, no shop currently
-/// @description                Discards & removes all card, effects global.deck & triggers redraw.
-function discard_all(state) {
-    if (state == CardState.hand) {
-        arr = global.deck_hand;
-    } else {
-        return;
-    }
+/// @description                Discards & removes all cards in hand, effects global.discard.
+function discard_all() {
+    arr = global.deck_hand;
+    
     //if nothing to discard
     if (array_length(arr) == 0) {
         return;
@@ -80,8 +73,12 @@ function discard_all(state) {
     }
     array_delete(arr, 0, array_length(arr));
 }
+/// @function                   shuffle_deck();
+/// @description                moves discard into deck
 function shuffle_deck() {
-    global.deck_cards = global.deck_discard;
+    array_foreach(global.deck_discard, function(_element) {
+        array_push(global.deck_cards, _element)
+    });
     global.deck_discard = [];
 }
 /* depreciated after ui change which automates this process
