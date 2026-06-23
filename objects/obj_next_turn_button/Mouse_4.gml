@@ -24,4 +24,5 @@ if (room != Room_shop) {
     
     Turn += 1;
     add_clank(Turn % 2); //add clank every other turn
+	
 }

@@ -16,16 +16,36 @@ if (State == CardState.hand) {
     instance_destroy();
     
 } else if (State == CardState.shop) {
-	with (obj_player_manager) {
-        if (SP < other.Cost) {
-            return; //can't afford
-        } else {
-            SP -= other.Cost;
-        }
-    }
-    with (obj_shop) {
+	
+	//if its a monster use swords instead
+	if (Monster) {
+		with (obj_player_manager) {
+			if (Sword < other.Cost) {
+				return;
+			} else {
+				Sword -= other.Cost;
+			}
+		}
+	} else if (device) { //if its a device
+		with (obj_player_manager) {
+			if (SP < other.Cost) {
+				return; //can't afford
+			} else {
+				SP -= other.Cost;
+			}
+		}
+	} else {
+		with (obj_player_manager) {
+			if (SP < other.Cost) {
+				return; //can't afford
+			} else {
+				SP -= other.Cost;
+			}
+		}
+		array_push(global.deck_discard, ID);
+	}
+	with (obj_shop) {
 		shop_cards[other.shop_index] = noone;
 	}
-    array_push(global.deck_discard, ID);
 	instance_destroy();
 }
