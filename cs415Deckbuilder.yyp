@@ -114,8 +114,8 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"dedicated_level_1","path":"rooms/dedicated_level_1/dedicated_level_1.yy",},},
-    {"roomId":{"name":"dedicated_level_2","path":"rooms/dedicated_level_2/dedicated_level_2.yy",},},
     {"roomId":{"name":"dedicated_level3","path":"rooms/dedicated_level3/dedicated_level3.yy",},},
+    {"roomId":{"name":"dedicated_level_2","path":"rooms/dedicated_level_2/dedicated_level_2.yy",},},
     {"roomId":{"name":"Room_game","path":"rooms/Room_game/Room_game.yy",},},
     {"roomId":{"name":"Room_shop","path":"rooms/Room_shop/Room_shop.yy",},},
     {"roomId":{"name":"Room_cards","path":"rooms/Room_cards/Room_cards.yy",},},

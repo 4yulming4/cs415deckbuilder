@@ -22,11 +22,11 @@
     {"name":"inst_5DFB8D7C","path":"rooms/dedicated_level_1/dedicated_level_1.yy",},
     {"name":"inst_57743F8F","path":"rooms/dedicated_level_1/dedicated_level_1.yy",},
     {"name":"inst_498BD688","path":"rooms/dedicated_level_1/dedicated_level_1.yy",},
+    {"name":"inst_77358F58","path":"rooms/dedicated_level_1/dedicated_level_1.yy",},
     {"name":"inst_592AC1BE","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_6C169B0E","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_3001F087","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_B3D9AB4","path":"roomui/RoomUI/RoomUI.yy",},
-    {"name":"inst_77358F58","path":"rooms/dedicated_level_1/dedicated_level_1.yy",},
   ],
   "isDnd":false,
   "layers":[
