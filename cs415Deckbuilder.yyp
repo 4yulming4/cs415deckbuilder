@@ -12,6 +12,7 @@
   "Folders":[
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"board_rooms_levels","folderPath":"folders/Objects/board_rooms_levels.yy","name":"board_rooms_levels","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"camera","folderPath":"folders/Objects/camera.yy","name":"camera","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Cards","folderPath":"folders/Objects/Cards.yy","name":"Cards","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"temp_objs","folderPath":"folders/Objects/temp_objs.yy","name":"temp_objs","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -42,6 +43,7 @@
     {"id":{"name":"level1_setup","path":"objects/level1_setup/level1_setup.yy",},},
     {"id":{"name":"level2_setup","path":"objects/level2_setup/level2_setup.yy",},},
     {"id":{"name":"level3_setup","path":"objects/level3_setup/level3_setup.yy",},},
+    {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_card_0_stumble","path":"objects/obj_card_0_stumble/obj_card_0_stumble.yy",},},
     {"id":{"name":"obj_card_1_burgle","path":"objects/obj_card_1_burgle/obj_card_1_burgle.yy",},},
     {"id":{"name":"obj_card_2_sidestep","path":"objects/obj_card_2_sidestep/obj_card_2_sidestep.yy",},},
