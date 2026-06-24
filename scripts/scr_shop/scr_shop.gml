@@ -9,7 +9,7 @@ function restock_shop(){
 				x + (i * 120) + 75,
 				y + 110,
 				"Instances",
-				get_card_obj(irandom_range(4,45)),
+				random_shop_card(),
                 {
                     State : CardState.shop,
                     shop_index : i

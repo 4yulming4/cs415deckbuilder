@@ -58,11 +58,11 @@ function get_card_obj(index = 0){
 }
 /// @function               scr_get_card(index);
 /// @description            Returns a instance of a random card.
-function scr_random_card() {
-    return get_card_obj(irandom_range(0, 4));
+function random_card() {
+    return get_card_obj(irandom_range(0, 45));
 }
 /// @function               scr_get_card(index);
 /// @description            Returns a instance of a random card except the starter cards.
-function scr_random_shop_card() {
-    return get_card_obj(irandom_range(4, 4));
+function random_shop_card() {
+    return get_card_obj(irandom_range(4, 45));
 }
