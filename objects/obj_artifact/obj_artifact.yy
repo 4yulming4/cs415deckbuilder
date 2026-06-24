@@ -1,11 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"board_manager",
+  "%Name":"obj_artifact",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_Player1","path":"objects/obj_Player1/obj_Player1.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"board_manager",
+  "name":"obj_artifact",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -29,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_artifact1",
+    "path":"sprites/spr_artifact1/spr_artifact1.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
