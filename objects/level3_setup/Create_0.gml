@@ -83,3 +83,6 @@ adj_matrix[16][15] = new _path(room_instances[16], room_instances[15], 0, 2, 0);
 adj_matrix[16][12] = new _path(room_instances[16], room_instances[12], 1, 0, 1);
 adj_matrix[12][16] = new _path(room_instances[12], room_instances[16], 1, 0, 1);
 
+spawn_artifact(11, 1);
+spawn_artifact(14, 1);
+spawn_artifact(16, 1);

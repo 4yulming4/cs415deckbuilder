@@ -25,3 +25,17 @@ function scr_random_card() {
 function scr_random_shop_card() {
     return get_card_obj(irandom_range(4, 4));
 }
+
+function get_card_name(card_id)
+{
+    switch(card_id)
+    {
+        case 0: return "Stumble";
+        case 1: return "Burgle";
+        case 2: return "Sidestep";
+        case 3: return "Scramble";
+        case 4: return "Mercenary";
+    }
+
+    return "Unknown";
+}
