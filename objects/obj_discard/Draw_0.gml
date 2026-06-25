@@ -5,7 +5,7 @@ if (point_in_rectangle(mouse_x, mouse_y,
     x + sprite_width,
     y + sprite_height))
 {
-    var amount_cards = array_length(global.deck_cards);
+    var amount_cards = array_length(global.deck_discard);
     
     var draw_x = mouse_x - 20;
     var draw_y = min(mouse_y, 770 - string_height("I")*amount_cards);
