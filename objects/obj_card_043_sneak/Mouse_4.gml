@@ -1,4 +1,4 @@
 if (State = CardState.hand) {
-    add_clank(-2);
+    add_clank(-1);
 }
 event_inherited();

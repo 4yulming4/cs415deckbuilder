@@ -12,7 +12,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_card_parent","path":"objects/obj_card_parent/obj_card_parent.yy",},"propertyId":{"name":"ID","path":"objects/obj_card_parent/obj_card_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"43",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_card_parent","path":"objects/obj_card_parent/obj_card_parent.yy",},"propertyId":{"name":"SP","path":"objects/obj_card_parent/obj_card_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_card_parent","path":"objects/obj_card_parent/obj_card_parent.yy",},"propertyId":{"name":"Movement","path":"objects/obj_card_parent/obj_card_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_card_parent","path":"objects/obj_card_parent/obj_card_parent.yy",},"propertyId":{"name":"Text","path":"objects/obj_card_parent/obj_card_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"-2 Clank",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_card_parent","path":"objects/obj_card_parent/obj_card_parent.yy",},"propertyId":{"name":"Text","path":"objects/obj_card_parent/obj_card_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"-1 Clank",},
   ],
   "parent":{
     "name":"Cards",

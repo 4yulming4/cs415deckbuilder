@@ -1,4 +1,4 @@
-function restock_shop(){
+function restock_shop() {
 	for (var i = 0; i < array_length(shop_cards); i++)
 	{
 		if (shop_cards[i] == noone)
@@ -15,5 +15,12 @@ function restock_shop(){
 			);
 			shop_cards[i] = card;
 		}
+	}
+}
+function empty_shop() {
+    for (var i = 0; i < array_length(shop_cards); i++)
+	{
+        instance_destroy(shop_cards[i]);
+        shop_cards[i] = noone;
 	}
 }

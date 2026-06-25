@@ -7,7 +7,7 @@
   "managed":true,
   "name":"obj_card_034_move_silently",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_card_parent","path":"objects/obj_card_parent/obj_card_parent.yy",},"propertyId":{"name":"Cost","path":"objects/obj_card_parent/obj_card_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_card_parent","path":"objects/obj_card_parent/obj_card_parent.yy",},"propertyId":{"name":"Cost","path":"objects/obj_card_parent/obj_card_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"4",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_card_parent","path":"objects/obj_card_parent/obj_card_parent.yy",},"propertyId":{"name":"Title","path":"objects/obj_card_parent/obj_card_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Move Silently",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_card_parent","path":"objects/obj_card_parent/obj_card_parent.yy",},"propertyId":{"name":"ID","path":"objects/obj_card_parent/obj_card_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"34",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_card_parent","path":"objects/obj_card_parent/obj_card_parent.yy",},"propertyId":{"name":"Movement","path":"objects/obj_card_parent/obj_card_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
