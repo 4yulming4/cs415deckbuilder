@@ -1,0 +1,1 @@
+//original: Trash a card from your discard pile

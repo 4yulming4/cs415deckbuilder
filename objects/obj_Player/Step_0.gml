@@ -34,21 +34,28 @@ if (mouse_check_button_pressed(mb_left))
 			
 			if (instance_exists(obj_player_manager)) {
 				with (obj_player_manager) {
-	                if (Movement < edge.num_boots + 1) {
-	                    can_move = false;
-	                }
-                    if (edge.num_key > 0) {
-                        can_move = false;
-                    }
-                    if (can_move) {
-                        if (edge.num_monster > 0) {
-    	                    var damage = edge.num_monster - Sword;
-    	                    HP -= max(damage, 0);
-    	                    Sword = max(Sword - edge.num_monster, 0); 
-                        }
+                    if (teleport > 0) {
+                        teleport -= 1;
                         Movement -= edge.num_boots + 1;
                         other.target_node = other.hovered_node; 
 				        other.moving = true; 
+                    } else {
+       	                if (Movement < edge.num_boots + 1) {
+       	                    can_move = false;
+       	                }
+                       if (edge.num_key > 0) {
+                           can_move = false;
+                       }
+                       if (can_move) {
+                           if (edge.num_monster > 0) {
+       	                    var damage = edge.num_monster - Sword;
+       	                    HP -= max(damage, 0);
+       	                    Sword = max(Sword - edge.num_monster, 0); 
+                           }
+                           Movement -= edge.num_boots + 1;
+                           other.target_node = other.hovered_node; 
+   				        other.moving = true; 
+                       }
                     }
 				}
 			} else {

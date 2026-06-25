@@ -19,8 +19,8 @@
   ],
   "name":"Room_shop",
   "parent":{
-    "name":"cs415Deckbuilder",
-    "path":"cs415Deckbuilder.yyp",
+    "name":"Rooms",
+    "path":"folders/Rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
