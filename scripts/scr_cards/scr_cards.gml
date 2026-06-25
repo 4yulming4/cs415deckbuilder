@@ -25,17 +25,16 @@ function scr_random_card() {
 function scr_random_shop_card() {
     return get_card_obj(irandom_range(4, 4));
 }
-
+/// @function               get_card_name(index);
+/// @description            Returns a string coresponding to the Title variable of a card
 function get_card_name(card_id)
 {
-    switch(card_id)
-    {
-        case 0: return "Stumble";
-        case 1: return "Burgle";
-        case 2: return "Sidestep";
-        case 3: return "Scramble";
-        case 4: return "Mercenary";
+    var card = get_card_obj(card_id);
+    //makes objects to read title from, not great performance but likely won't matter.
+    //persistent & checks if instance exists to reduce performance issues
+    if (!instance_exists(card)) {
+        var cardInstance = instance_create_layer(-100,0,"Background", card);
+        cardInstance.persistent = true;
     }
-
-    return "Unknown";
+    return card.Title;
 }
