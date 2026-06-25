@@ -1,5 +1,3 @@
-
-
 function restock_shop(){
 	for (var i = 0; i < array_length(shop_cards); i++)
 	{

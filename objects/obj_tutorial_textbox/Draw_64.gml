@@ -1,0 +1,10 @@
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);
+draw_set_alpha(0.75);
+draw_set_color(c_black);
+draw_rectangle(x, y, x + box_width, y + box_height, false);
+draw_set_alpha(1.0);
+draw_set_color(c_white);
+draw_rectangle(x, y, x + box_width, y + box_height, true);
+draw_text(x + close_button_x, y + close_button_y, "X");
+draw_text_ext(x + padding, y + padding, text, -1, box_width - (padding * 2));

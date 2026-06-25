@@ -1,10 +1,10 @@
 if (room != Room_shop) {
     //go to shop
     Level = room;
+    room_goto(Room_shop);
     with (obj_shop) {
         restock_shop();
     }
-    room_goto(Room_shop);
 } else {
     //next turn
     room_goto(Level);
@@ -24,5 +24,4 @@ if (room != Room_shop) {
     
     Turn += 1;
     add_clank(Turn % 2); //add clank every other turn
-	
 }
