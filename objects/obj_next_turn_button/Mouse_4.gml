@@ -51,8 +51,9 @@ if (room != Room_shop) {
         SP = 0;
         Sword = 0;
         Movement = Move_next_turn;
-        teleport = 0;
+        teleport = Teleport_next_turn;
         Move_next_turn = 0;
+        Teleport_next_turn = 0;
     }
     
     Turn += 1;
