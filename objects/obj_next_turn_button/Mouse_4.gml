@@ -3,9 +3,11 @@ if (room != Room_shop) {
     Level = room;
     room_goto(Room_shop);
 } else {
+    if (array_length(global.deck_hand) > 0) {
+        return;
+    }
     //next turn
     room_goto(Level);
-    discard_all();
     draw_card();
     draw_card();
     draw_card();
