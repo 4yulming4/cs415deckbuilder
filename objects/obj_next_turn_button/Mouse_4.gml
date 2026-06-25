@@ -10,6 +10,7 @@ if (room != Room_shop) {
             	obj_Player.y + 10 > obj_Player.start_y
             	) {
                 //then game win
+                obj_player_manager.has_artifact = false;
                 add_clank(-100);
             	if (obj_player_manager.level == 1) {
               		room_goto_next();
