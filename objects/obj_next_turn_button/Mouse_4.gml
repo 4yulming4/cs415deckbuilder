@@ -1,14 +1,11 @@
 if (room != Room_shop) {
     //go to shop
     Level = room;
-    with (obj_shop) {
-        restock_shop();
-    }
     room_goto(Room_shop);
 } else {
     //next turn
     room_goto(Level);
-    discard_all(CardState.hand);
+    discard_all();
     draw_card();
     draw_card();
     draw_card();
