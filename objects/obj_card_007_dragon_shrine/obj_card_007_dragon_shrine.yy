@@ -1,14 +1,17 @@
 {
   "$GMObject":"",
   "%Name":"obj_card_007_dragon_shrine",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_card_007_dragon_shrine",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_card_parent","path":"objects/obj_card_parent/obj_card_parent.yy",},"propertyId":{"name":"Cost","path":"objects/obj_card_parent/obj_card_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"4",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_card_parent","path":"objects/obj_card_parent/obj_card_parent.yy",},"propertyId":{"name":"Title","path":"objects/obj_card_parent/obj_card_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Dragon Dhrine",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_card_parent","path":"objects/obj_card_parent/obj_card_parent.yy",},"propertyId":{"name":"ID","path":"objects/obj_card_parent/obj_card_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"7",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_card_parent","path":"objects/obj_card_parent/obj_card_parent.yy",},"propertyId":{"name":"Text","path":"objects/obj_card_parent/obj_card_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Trash a card from your discard pile",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_card_parent","path":"objects/obj_card_parent/obj_card_parent.yy",},"propertyId":{"name":"Text","path":"objects/obj_card_parent/obj_card_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Trashes a stumble or burgle from your discard pile",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_card_parent","path":"objects/obj_card_parent/obj_card_parent.yy",},"propertyId":{"name":"device","path":"objects/obj_card_parent/obj_card_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
   ],
   "parent":{

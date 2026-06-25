@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_card_019_apothecary",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_card_019_apothecary",
   "overriddenProperties":[
@@ -9,7 +11,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_card_parent","path":"objects/obj_card_parent/obj_card_parent.yy",},"propertyId":{"name":"Title","path":"objects/obj_card_parent/obj_card_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Apothecary",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_card_parent","path":"objects/obj_card_parent/obj_card_parent.yy",},"propertyId":{"name":"ID","path":"objects/obj_card_parent/obj_card_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"19",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_card_parent","path":"objects/obj_card_parent/obj_card_parent.yy",},"propertyId":{"name":"victory_points","path":"objects/obj_card_parent/obj_card_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_card_parent","path":"objects/obj_card_parent/obj_card_parent.yy",},"propertyId":{"name":"Text","path":"objects/obj_card_parent/obj_card_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Discard a card to chose one of the following: 3 Sword or 2 Victory Points or Heal 1",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_card_parent","path":"objects/obj_card_parent/obj_card_parent.yy",},"propertyId":{"name":"Text","path":"objects/obj_card_parent/obj_card_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Discard a card to heal 1.",},
   ],
   "parent":{
     "name":"Cards",
