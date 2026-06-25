@@ -71,7 +71,7 @@ function discard_all() {
         instance_destroy(cardID);
         flexpanel_delete_node(arr[i]);
     }
-    array_delete(arr, 0, array_length(arr));
+    arr = [];
 }
 /// @function                   shuffle_deck();
 /// @description                moves discard into deck

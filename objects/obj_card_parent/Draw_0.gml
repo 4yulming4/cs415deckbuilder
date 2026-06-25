@@ -4,10 +4,25 @@ draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 draw_set_color(c_black); //color for cost & SP
 
+if (Monster) {
+	draw_sprite(spr_card_monster, 0, x, y);
+}
+if (device) {
+	draw_sprite(spr_card_device, 0, x, y);
+}
+
+
+
 if (Cost > 0) {
     var cost_offset = 20; //size of cost sprite
     draw_sprite(spr_skill, 0, x+100-cost_offset, y+150-cost_offset)
     draw_text(x+100-cost_offset/2, y+150-cost_offset/2, string(Cost));
+}
+
+if (victory_points > 0) {
+    var cost_offset = 20; //size of cost sprite
+    draw_sprite(spr_vp, 0, x+100-cost_offset, y)
+    draw_text(x+100-cost_offset/2, y+8, string(victory_points));
 }
 
 var point_y = y+20;
@@ -30,6 +45,8 @@ while (num_sword > 0) {
     
     num_sword -= 1;
 }
+
+
 
 draw_set_color(c_white);
 draw_text(x+50, y+5, Title);

@@ -1,6 +1,4 @@
-
-
-function restock_shop(){
+function restock_shop() {
 	for (var i = 0; i < array_length(shop_cards); i++)
 	{
 		if (shop_cards[i] == noone)
@@ -9,7 +7,7 @@ function restock_shop(){
 				x + (i * 120) + 75,
 				y + 110,
 				"Instances",
-				get_card_obj(4),
+				random_shop_card(),
                 {
                     State : CardState.shop,
                     shop_index : i
@@ -17,5 +15,12 @@ function restock_shop(){
 			);
 			shop_cards[i] = card;
 		}
+	}
+}
+function empty_shop() {
+    for (var i = 0; i < array_length(shop_cards); i++)
+	{
+        instance_destroy(shop_cards[i]);
+        shop_cards[i] = noone;
 	}
 }
