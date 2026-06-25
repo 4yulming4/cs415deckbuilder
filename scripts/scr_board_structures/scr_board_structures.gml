@@ -21,3 +21,28 @@ function path_edge (_boot_cost, _monsters, _requires_key) constructor {
 	requires_key = _requires_key; 
 } 
 
+function spawn_artifact(_node_id, _value)
+{
+    if (!instance_exists(level_room_mngr))
+        return;
+
+    var controller = instance_find(level_room_mngr, 0);
+
+    if (_node_id >= array_length(controller.room_instances))
+        return;
+
+    var room_inst = controller.room_instances[_node_id];
+
+    var a = instance_create_depth(
+        room_inst.x,
+        room_inst.y,
+        -10,
+        obj_artifact
+    );
+
+    a.node_id = _node_id;
+    a.value = _value;
+    a.collected = false;
+
+    return a;
+}
